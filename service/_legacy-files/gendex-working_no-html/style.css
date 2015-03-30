@@ -1,0 +1,24 @@
+.gentable {
+	margin:0px;padding:0px;
+	width:auto;
+	box-shadow: 2px 2px 3px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	}
+.gentable td, tr {
+	height: 50px;
+	vertical-align: middle;
+	padding-right: 20px;
+}
+
+#panel {
+	width: 33%;
+}
+strong {
+	color: brown;
+	font-size: xx-small;
+}
+

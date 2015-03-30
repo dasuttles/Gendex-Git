@@ -4,6 +4,9 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+sftp-config.json
+db_codex.php
+db_neoarch.php
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/level2.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Valdosta Daily Times Vital Records Search Page</title>
+<!-- InstanceEndEditable -->
+<link href="/css/level_2.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+<script language="JavaScript" type="text/javascript" src="/site/js/search.js"></script>
+<script language="JavaScript" type="text/javascript" src="/site/js/noframe.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4063051-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+			<!--#include virtual="/site/header_sub.html"-->
+        </div>
+        <div id="rightwrapper">
+            <div id="blackmenu">
+            <!--#include virtual="/site/corepages.html"-->
+            </div>
+        
+            <div id="content">
+            <!-- InstanceBeginEditable name="Main Content Section" -->
+      <p><a href="/">Home</a> &gt; <a href="../../../../vsu/administration.shtml">Administrative Offices</a> &gt; <a href="../../../">Odum Library </a>&gt; <a href="../../index.shtml">Library Collections</a> &gt; <a href="../index.shtml">Archives</a> &gt; <a href="index.shtml">Valdosta Daily Times</a> &gt; Valdosta Daily Times Vital Records Search Page </p>
+	  <h1>Valdosta Daily Times Vital Records</h1>
+	  <h5>The Valdosta Daily Times Vital Records Index is a record of birth announcements, death notices/obituaries, engagement announcements, and wedding announcements
+	  found in the Valdosta Daily Times. from 1945-1964. Currently, we are adding material each semester to bring the index up through 1993.</h5> 
+	  <ul><h5>
+          <li>Search this index for records between 1945 and  1964. (Additional content is frequently added) </li>
+          <li>If you are searching for vital records from  after 1993, please consult our <a href="http://www.valdosta.edu/library/find/arch/vdtindex/index.shtml">Valdosta Daily Times Index</a>, which contains  records from 1994 to the present. </li>
+          <li>If you are searching for records from before  1945, please consult GENDEX, a notebook of vital records in the Valdosta Daily  Times from 1868-1945. Copies of this notebook can be found at the <a href="http://www.sgrl.org/">South Georgia  Regional Library</a>, <a href="http://www.valdostamuseum.com/">The Lowndes County Historical Society Museum</a>, and the <a href="http://www.valdosta.edu/library/find/arch/index.shtml">Valdosta  State University Archives</a>.</li>
+	  </h5>
+      </ul>
+	  <p><strong>How to Search the Valdosta Daily Times Vital Records Table </strong><br />
+      The search forms are divided by record type. (Obituary, Wedding, Birth, etc.) Please type the name of the person you are researching into the appropriate search box and click search. A results page will provide you with a list of exact and approximate matches.	  </p>
+
+<form action="vdtobit_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Obituaries/ Death Notices</h3> 
+
+<p>Search Obituaries/ Death Records by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  </form>
+	  <br />
+
+<form action="vdtengage_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Engagement Notices</h3> 
+
+<p>Search Engagements by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  </form>
+	  <br />
+	  
+<form action="vdtwed_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Wedding Notices</h3> 
+
+<p>Search Weddings by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  </form>
+	  <br />
+	  
+<form action="vdtbirth_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Birth Announcements</h3> 
+
+<p>Search Birth Announcements by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  </form>
+<p><br />
+</p>
+	<!-- InstanceEndEditable -->
+            </div>
+        </div>
+        <div id="footer">
+        <!--#include virtual="/site/footer_sub.html"-->
+        </div>
+    </div>
+</body>
+<!-- InstanceEnd --></html>

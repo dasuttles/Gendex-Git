@@ -1,0 +1,42 @@
+.genhead {
+	font-family: Georgia, serif;
+	color: red;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, .8);
+	height: auto;
+	width: auto;
+	padding-left: 50px;
+	text-align: center;
+}
+.vdthead {
+	font-family: Georgia, serif;
+	color: #5bc0de;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, .8);
+	height: auto;
+	width: auto;
+	padding-left: 50px;
+	text-align: center;
+}
+.genhead small {
+	color: black;
+}
+.vdthead small {
+	color: black;
+}
+.vdthead a {
+	color: red;
+	}
+
+.gentabhead {
+	color: rgba(215, 44, 44, 1);
+	font-style: strong;
+}
+.vdttabhead {
+	color: #000080;
+	font-style: strong;
+}
+
+.logo {
+	width: 10%;
+	padding-left: 5px;
+	float: left;
+}

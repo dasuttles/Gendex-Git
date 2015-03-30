@@ -1,0 +1,41 @@
+.jumbotron {
+	background-image: url(../img/microfilm_bg_vdtindex.jpg);
+	background: cover;
+	height: 336px;
+	width: 100%;
+}
+
+.jumbotron h1 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: white;
+}
+
+.panel {
+	width: 100%;
+	padding: 3px;
+	margin: 3px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 80%;
+	background-color: rgba(255, 255, 255, 0.8);
+	float: left;
+}
+@media screen (max-width: 700px) {
+	.panel {
+		font-size: xx-small;
+	}
+
+}
+.space {
+	padding: 5px;
+}
+
+strong {
+	color: brown;
+	font-size: xx-small;
+}
+
+.pagetitle {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+

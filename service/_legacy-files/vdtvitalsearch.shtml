@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Valdosta Daily Times Vital Records | Search Page</title>
+</head>
+
+<body>
+<h1> Valdosta Daily Times Vital Records Search Page</h1>
+
+The Valdosta Daily Times vital records database contains records of births, deaths, engagements, and weddings listed in the Valdosta Daily Times from 1945-1964. <p>Records are being added every semester for years beyond 1964.
+
+<form action="vdtobit_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Obituaries/ Death Notices</h3> 
+
+<p>Search Obituaries/ Death Records by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  <br />
+
+<form action="vdtengage_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Engagement Notices</h3> 
+
+<p>Search Engagements by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  <br />
+	  
+<form action="vdtwed_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Wedding Notices</h3> 
+
+<p>Search Weddings by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  <br />
+	  
+<form action="vdtbirth_results.php" method="get">
+  <h3>Search the Valdosta Daily Times Vital Records Table for Birth Announcements</h3> 
+
+<p>Search Birth Announcements by Name</p> <br />
+	  <input name= "searchterm" type"text" />
+	  <input name="submit" type ="submit" value="Search" />
+	  <br />
+</body>
+</html>
